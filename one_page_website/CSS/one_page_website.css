@@ -1,0 +1,56 @@
+/* one_page_website.css */
+body {
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+h1 {
+    color: mediumturquoise;
+    font-family: georgia, serif;
+}
+
+form input[type="text"] {
+    width: 20%;
+    margin: 5px;
+    border: 2px solid peachpuff;
+    border-radius: 7px;
+}
+
+/* Additional Styles for Layout */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #333;
+}
+
+#home {
+    text-align: center;
+    padding: 20px;
+}
+
+#gallery {
+    text-align: center;
+    padding: 20px;
+}
+
+#signup {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
