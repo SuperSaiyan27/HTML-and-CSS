@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags for character encoding and responsive viewport -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Page title displayed in the browser tab -->
+    <title>Academy Cinemas</title>
+    
+    <!-- Bootstrap 4 CSS from CDN for styling the webpage -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Main container to center and constrain the content width -->
+    <div class="container">
+        <!-- Navigation bar using Bootstrap's navbar component -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <!-- Collapsible navbar content for smaller screens -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navigation links for About, Showtimes, and Deals sections -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#about-section">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#showtimes-section">Showtimes</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#">Deals</a>
+                    </li>
+                </ul>
+                <!-- Search form within the navbar -->
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary my-2 my-sm-0 text-light" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <!-- Jumbotron for the main header section with a welcoming message -->
+        <div class="jumbotron jumbotron-fluid bg-info text-center">
+            <div class="container">
+                <h1 class="display-4 text-light">Academy Cinemas</h1>
+                <p class="lead text-light">Sit back, relax and enjoy the show!</p>
+            </div>
+        </div>
+
+        <!-- About section with an image and text about the cinema -->
+        <div id="about-section" class="container my-5">
+            <div class="row">
+                <!-- Column for the cinema image -->
+                <div class="col-sm">
+                    <img class="img-fluid" src="./Images/pdx.jpg" alt="Image of Portland, Oregon's Pearl district" />
+                </div>
+                <!-- Column for accommodation details -->
+                <div class="col-sm">
+                    <h3>Accommodations:</h3>
+                    <p>Located in beautiful Portland, Oregon's Pearl district, our reels have been spinning since 1959.</p>
+                    <p>Showing our guests a great time is our passion and seeing their smiles is our pleasure!</p>
+                    <p>All of our auditoriums are equipped with brand new Christie 3D® sound systems!</p>
+                    <p>Relax in our extra-wide, plush cushioning recliners. Our seating arrangement is disability friendly ♿.</p>
+                </div>
+
+                <!-- Showtimes section with a list of movies currently playing -->
+                <div id="showtimes-section">
+                    <div class="col-sm">
+                        <h3>Now Playing</h3>
+                        <!-- List of movies with links -->
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a class="nav-link" href="#">Kong: Skull Island</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link" href="#">Ghost in the Shell</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link" href="#">Beauty and the Beast</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card deck to display movie details with images, descriptions, and showtimes -->
+        <div class="card-deck">
+            <!-- Card for Kong: Skull Island -->
+            <div class="card">
+                <img src="./Images/kongskullisland.jpg" class="card-img-top" alt="Kong Skull Island">
+                <div class="card-body">
+                    <h5 class="card-title">Kong: Skull Island</h5>
+                    <p class="card-text">A crew that reaches Skull Island to map it, is attacked by a humongous ape. The survivors then regroup to find out more about the ape, the island's natives and underground monsters.</p>
+                    <!-- Showtime badges -->
+                    <span class="badge badge-pill badge-info">12:00pm</span>
+                    <span class="badge badge-pill badge-info">13:30pm</span>
+                    <span class="badge badge-pill badge-info">15:00pm</span>
+                    <span class="badge badge-pill badge-info">16:30pm</span>
+                    <span class="badge badge-pill badge-info">18:00pm</span>
+                </div>
+            </div>
+            <!-- Card for Ghost in the Shell -->
+            <div class="card">
+                <img src="./Images/ghostintheshell.jpg" class="card-img-top" alt="Ghost in the Shell">
+                <div class="card-body">
+                    <h5 class="card-title">Ghost in the Shell</h5>
+                    <p class="card-text">After a terrible accident, a woman named Major is cyber-enhanced with special abilities to fight the most dangerous criminals. When a new type of terrorism emerges, Major uses her skills to stop it.</p>
+                    <!-- Showtime badges -->
+                    <span class="badge badge-pill badge-info">12:00pm</span>
+                    <span class="badge badge-pill badge-info">13:30pm</span>
+                    <span class="badge badge-pill badge-info">15:00pm</span>
+                    <span class="badge badge-pill badge-info">16:30pm</span>
+                    <span class="badge badge-pill badge-info">18:00pm</span>
+                </div>
+            </div>
+            <!-- Card for Beauty and the Beast -->
+            <div class="card">
+                <img src="./Images/beautyandthebeast.jpg" class="card-img-top" alt="Beauty and the Beast">
+                <div class="card-body">
+                    <h5 class="card-title">Beauty and the Beast</h5>
+                    <p class="card-text">Belle embarks on a journey to save her father from a creature that has locked him in his dungeon. Eventually, she learns that the beast is an enchanted prince who has been cursed.</p>
+                    <!-- Showtime badges -->
+                    <span class="badge badge-pill badge-info">12:00pm</span>
+                    <span class="badge badge-pill badge-info">13:30pm</span>
+                    <span class="badge badge-pill badge-info">15:00pm</span>
+                    <span class="badge badge-pill badge-info">16:30pm</span>
+                    <span class="badge badge-pill badge-info">18:00pm</span>            
+                </div>
+            </div>
+        </div>
+
+        <!-- Form section for signing up to Movie Club Rewards -->
+        <div class="text-center">
+            <form>
+                <h1 class="text-primary my-5">Sign up for Movie Club Rewards!</h1>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
+        <!-- Footer section with navigation links and copyright information -->
+        <div class="container my-5">
+            <ul class="nav nav-inline">
+                <li class="nav-item">
+                    <small><a class="nav-link active" href="#">Movie Rewards</a></small>
+                </li>
+                <li class="nav-item">
+                    <small><a class="nav-link" href="#">Movie@news.org</a></small>
+                </li>
+                <li class="nav-item">
+                    <small><a class="nav-link" href="#">Info@academycinemas.com</a></small>
+                </li>
+                <li class="nav-item">
+                    <small class="nav-link">©:2019 Academy Cinemas®</small>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript for Bootstrap functionality -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <!-- jQuery code to initialize tooltips (though no tooltips are currently used in this HTML) -->
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+</body>
+</html>
